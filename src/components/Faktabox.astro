@@ -1,0 +1,31 @@
+---
+const { info, info2, info3, info4, sted } = Astro.props;
+---
+
+<article>
+  <h3>LOKATION</h3>
+  <h4>{sted}</h4>
+  <p>{info}</p>
+  <hr />
+  <p>{info2}</p>
+  <hr />
+  <p>{info3}</p>
+  <hr />
+  <p>{info4}</p>
+  <hr />
+</article>
+
+<style>
+  article {
+    width: 500px;
+  }
+  p {
+    color: var(--font-color);
+  }
+  h4 {
+    color: var(--font-color);
+  }
+  h3 {
+    color: var(--font-color);
+  }
+</style>

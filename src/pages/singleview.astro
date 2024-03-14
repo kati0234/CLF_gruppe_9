@@ -1,0 +1,53 @@
+---
+import "../styles/style.css";
+import Faktabox from "../components/Faktabox.astro";
+import Textsingel from "../components/Textsingel.astro";
+import "../styles/singel.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>singel</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <h1>tttttt</h1>
+      <div class="flex_singel_1">
+        <Textsingel text="lll">
+          <p>
+            Inspireret af hyggen som begreb og guidet af Richard Kellys tidløse
+            belysningsprincipper er visionen bag THE HYGGE LIGHTHOUSE ikke blot
+            at oplyse den fysiske struktur, men også de skjulte narrativer i
+            kioskens århundredgamle træudskæringer. Gabriele Zocchi og Petros
+            Kitsantas er passionerede lysdesignere, som har en klippefast tro på
+            lysets evne til at forbinde og forbløffe folk gennem
+            historiefortælling.
+          </p>
+          <p>
+            I samarbejde med andre eksperter, som har helliget sig at skabe
+            drømmeagtige digitale oplevelser, og en lydtekniker, har de sat sig
+            for at forvandle Kultorvets kiosk til en levende lampe og en
+            multisensorisk oplevelse. Kunstnerne bruger en alkymistisk blanding
+            af lys, projection mapping og lyd til at forsøge at redefinere selve
+            virkeligheden og afsløre en helt ny dimension.
+          </p>
+        </Textsingel>
+        <Faktabox
+          sted="VED STRANDEN 14"
+          info="LYS: Martin Professional"
+          info2="MUSIK: Bjørn Svin"
+          info3="LINKS: Instagram: @maninikdelstudio"
+          info4="TAK TIL: Stromma, Martin Professional, Bjørn Svin"
+        />
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
+
+<style></style>

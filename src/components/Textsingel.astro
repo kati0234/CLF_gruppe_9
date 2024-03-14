@@ -1,0 +1,14 @@
+---
+const { text } = Astro.props;
+---
+
+<div>
+  <p>{text}</p>
+  <slot />
+</div>
+
+<style>
+  p {
+    color: var(--font-color);
+  }
+</style>

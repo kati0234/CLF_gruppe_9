@@ -1,0 +1,12 @@
+body {
+  max-width: 2000px;
+}
+main {
+  margin-inline: 0 auto;
+}
+p {
+  color: aliceblue;
+}
+.flex_singel_1 {
+  display: flex;
+}
